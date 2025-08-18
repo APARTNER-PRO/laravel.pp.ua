@@ -183,8 +183,77 @@
         </p>
         
         <h2>Laravel vs інші PHP-фреймворки: порівняльний аналіз</h2>
-        <p>Хоча на ринку існують інші PHP-фреймворки, такі як Symfony, CodeIgniter, Yii та інші, Laravel вирізняється своєю простотою використання, швидкістю розробки та багатофункціональністю.</p>
-        <p>В порівнянні з іншими фреймворками, Laravel відмінно підходить для розробки великих та середніх проектів, а також для початківців, завдяки зручному та зрозумілому синтаксису.</p>
+        <div class="framework-comparison">
+            <div class="comparison-item">
+                <h3>Laravel vs Symfony</h3>
+                <ul>
+                    <li><strong>Архітектура:</strong> Laravel використовує компоненти Symfony, але має простіший синтаксис та більш високу швидкість розробки</li>
+                    <li><strong>Крива навчання:</strong> Laravel легший для вивчення новачкам завдяки чудовій документації та простоті використання</li>
+                    <li><strong>Продуктивність:</strong> Symfony трохи швидший у великих проектах, але Laravel краще підходить для швидкої розробки MVP</li>
+                    <li><strong>Ринок праці:</strong> Laravel має більше вакансій для початківців та середнього рівня</li>
+                </ul>
+            </div>
+
+            <div class="comparison-item">
+                <h3>Laravel vs CodeIgniter</h3>
+                <ul>
+                    <li><strong>Архітектура:</strong> Laravel використовує сучасні патерни проектування (MVC, Middleware, Service Container)</li>
+                    <li><strong>Функціонал:</strong> На відміну від CodeIgniter, Laravel має вбудовані механізми автентифікації, ORM, черги завдань, події</li>
+                    <li><strong>Масштабованість:</strong> Laravel краще підходить для великих проектів завдяки модульній архітектурі</li>
+                    <li><strong>Спільнота:</strong> Laravel має більшу активну спільноту та більше готових пакетів</li>
+                </ul>
+            </div>
+
+            <div class="comparison-item">
+                <h3>Laravel vs Yii2</h3>
+                <ul>
+                    <li><strong>Продуктивність:</strong> Yii2 трохи швидший за Laravel у тестах продуктивності</li>
+                    <li><strong>Безпека:</strong> Обидва фреймворки мають відмінні механізми безпеки, але Laravel має більше вбудованих функцій</li>
+                    <li><strong>Розширюваність:</strong> Laravel має кращу підтримку пакетів через Composer</li>
+                    <li><strong>API:</strong> Laravel має вбудовані засоби для створення RESTful API</li>
+                </ul>
+            </div>
+
+            <div class="comparison-item">
+                <h3>Коли обирати Laravel?</h3>
+                <ul>
+                    <li>Швидка розробка MVP (мінімально життєздатного продукту)</li>
+                    <li>Проекти, де важлива швидкість розробки</li>
+                    <li>Додатки зі складною бізнес-логікою</li>
+                    <li>Проекти, де потрібна гнучка архітектура</li>
+                    <li>Коли важлива підтримка спільноти та доступність розробників</li>
+                </ul>
+            </div>
+        </div>
+
+        <style>
+            .framework-comparison {
+                margin: 30px 0;
+            }
+            .comparison-item {
+                background: #fff;
+                border-radius: 8px;
+                padding: 20px;
+                margin-bottom: 20px;
+                box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            }
+            .comparison-item h3 {
+                color: #007bff;
+                margin-top: 0;
+                border-bottom: 1px solid #eee;
+                padding-bottom: 10px;
+            }
+            .comparison-item ul {
+                padding-left: 20px;
+            }
+            .comparison-item li {
+                margin-bottom: 8px;
+                line-height: 1.5;
+            }
+            .comparison-item strong {
+                color: #2c3e50;
+            }
+        </style>
         
         <h2>Часті питання</h2>
         <div class="faq-container">
