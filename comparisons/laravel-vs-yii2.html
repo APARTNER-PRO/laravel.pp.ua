@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Laravel vs Yii2: Детальне порівняння PHP фреймворків | Laravel Україна</title>
+    <meta name="description" content="Детальне порівняння Laravel та Yii2: архітектура, продуктивність, крива навчання та використання в реальних проектах. Який фреймворк обрати у 2025 році?">
+    <meta name="keywords" content="Laravel, Yii2, порівняння, PHP фреймворки, веб-розробка, MVC">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="canonical" href="https://laravel.pp.ua/comparisons/laravel-vs-yii2.html">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Laravel vs Yii2: Детальне порівняння PHP фреймворків">
+    <meta property="og:description" content="Повний аналіз відмінностей між Laravel та Yii2. Який фреймворк краще вибрати у 2025 році?">
+    <meta property="og:url" content="https://laravel.pp.ua/comparisons/laravel-vs-yii2.html">
+    <meta property="og:site_name" content="Laravel Україна">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Laravel vs Yii2: Детальне порівняння">
+    <meta name="twitter:description" content="Детальний аналіз відмінностей між двома популярними PHP фреймворками">
+    
+    <style>
+        body {font-family:Arial,sans-serif;line-height:1.6;margin:0;padding:0;background-color:#f8f9fa;color:#333}
+        .container{max-width:1200px;margin:0 auto;padding:20px}
+        h1,h2,h3{color:#007bff}
+        .comparison-section{background:#fff;border-radius:8px;padding:25px;margin-bottom:30px;box-shadow:0 2px 15px rgba(0,0,0,0.1)}
+        .comparison-grid{display:grid;grid-template-columns:1fr 1fr;gap:20px;margin:20px 0}
+        .pros-cons{background:#f8f9fa;padding:15px;border-radius:5px;margin:10px 0}
+        .pros{color:#28a745}
+        .cons{color:#dc3545}
+        .back-link{display:inline-block;margin:20px 0;color:#007bff;text-decoration:none}
+        .back-link:hover{text-decoration:underline}
+        @media (max-width:768px){.comparison-grid{grid-template-columns:1fr}}
+        .feature-table{width:100%;border-collapse:collapse;margin:20px 0}
+        .feature-table th,.feature-table td{border:1px solid #ddd;padding:12px;text-align:left}
+        .feature-table th{background-color:#f2f2f2}
+        .feature-table tr:nth-child(even){background-color:#f9f9f9}
+        .highlight-box{background-color:#f8f9fa;border-left:4px solid #007bff;padding:15px;margin:20px 0}
+        .developer-promo{background-color:#e9f7ef;border-left:5px solid #28a745;padding:20px;margin:30px 0;border-radius:5px}
+        .developer-promo h3{color:#155724;margin-top:0}
+        .skills-list{list-style:none;padding:0;display:flex;flex-wrap:wrap;gap:10px;margin:15px 0}
+        .skills-list li{background-color:#d4edda;color:#155724;padding:5px 10px;border-radius:15px;font-size:.9em}
+        .promo-link{display:inline-block;background-color:#28a745;color:#fff;padding:10px 20px;text-decoration:none;border-radius:5px;font-weight:700;transition:background-color .3s}
+        .promo-link:hover{background-color:#218838}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="/" class="back-link">← На головну</a>
+        <h1>Laravel vs Yii2: Детальне порівняння</h1>
+        
+        <div class="comparison-section">
+            <h2>Вступ</h2>
+            <p>Laravel та Yii2 – два потужних PHP-фреймворки, що пропонують високу продуктивність та багатий функціонал. Laravel відомий своєю елегантністю та зручністю для розробника, тоді як Yii2 славиться своєю швидкістю та ефективністю, особливо у великих проектах.</p>
+        </div>
+        
+        <div class="comparison-section">
+            <h2>Ключові відмінності</h2>
+            
+            <div class="pros-cons">
+                <h3>Laravel</h3>
+                <p class="pros">+ Елегантний синтаксис та зручність розробки</p>
+                <p class="pros">+ Величезна екосистема (Forge, Vapor, Nova)</p>
+                <p class="pros">+ Активна та велика спільнота</p>
+                <p class="cons">- Може бути повільнішим за Yii2 без оптимізації</p>
+                <p class="cons">- Більше "магії" під капотом</p>
+            </div>
+            
+            <div class="pros-cons">
+                <h3>Yii2</h3>
+                <p class="pros">+ Висока продуктивність "з коробки"</p>
+                <p class="pros">+ Потужний генератор коду Gii</p>
+                <p class="pros">+ Вбудована підтримка RESTful API</p>
+                <p class="cons">- Менша спільнота порівняно з Laravel</p>
+                <p class="cons">- Більш строгий та консервативний підхід</p>
+            </div>
+        </div>
+        
+        <div class="comparison-section">
+            <h2>Коли вибрати Laravel?</h2>
+            <ul>
+                <li>Для проектів, де важлива швидкість розробки та зручність.</li>
+                <li>Коли потрібна велика кількість готових пакетів та інтеграцій.</li>
+                <li>Для побудови сучасних SPA або мобільних бекендів.</li>
+                <li>Якщо ви цінуєте активну спільноту та детальну документацію.</li>
+            </ul>
+            
+            <h2>Коли вибрати Yii2?</h2>
+            <ul>
+                <li>Для високопродуктивних систем та великих порталів.</li>
+                <li>Коли потрібен швидкий CRUD-генератор (Gii).</li>
+                <li>Для проектів, де потрібна максимальна продуктивність.</li>
+                <li>Якщо ви віддаєте перевагу більш прозорій та менш "магічній" архітектурі.</li>
+            </ul>
+        </div>
+        
+        <div class="developer-promo">
+            <h3>Шукаєте досвідченого розробника?</h3>
+            <p>Я - фулстек-розробник з досвідом у наступних технологіях:</p>
+            <ul class="skills-list">
+                <li>Laravel</li>
+                <li>Next.js</li>
+                <li>Nuxt.js</li>
+                <li>React</li>
+                <li>Vue.js</li>
+                <li>Prestashop</li>
+                <li>Wordpress</li>
+                <li>PHP</li>
+                <li>FilamentPHP</li>
+            </ul>
+            <p>Готовий допомогти з вашим проектом. Ознайомтеся з моїм резюме та портфоліо за посиланням:</p>
+            <a href="https://romandev.pp.ua" target="_blank" class="promo-link">Переглянути резюме</a>
+        </div>
+
+        <div class="comparison-section">
+            <h2>Висновки</h2>
+            <p>Laravel є чудовим вибором для більшості сучасних веб-додатків завдяки своїй гнучкості, екосистемі та зручності для розробника. Yii2, у свою чергу, є потужним інструментом для створення високопродуктивних систем, де швидкість роботи є критичним фактором.</p>
+            <p>Ваш вибір залежить від пріоритетів проекту: швидкість розробки та екосистема (Laravel) проти чистої продуктивності та генерації коду (Yii2).</p>
+        </div>
+        
+        <a href="/" class="back-link">← На головну</a>
+    </div>
+</body>
+</html>
